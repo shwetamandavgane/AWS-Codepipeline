@@ -4,7 +4,7 @@ phases:
     install:
       runtime-versions:
         java:openjdk8
-      commands
+      commands:
         - echo no commands yet
     pre_build:
       commands:
@@ -19,4 +19,3 @@ phases:
 artifacts:
   files:
     - 'target/codepipeline.jar'
-
