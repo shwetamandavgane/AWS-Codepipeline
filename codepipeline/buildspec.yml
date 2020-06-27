@@ -1,0 +1,22 @@
+version: 0.2
+
+phases:
+    install:
+      runtime-versions:
+        java:openjdk8
+      commands
+        - echo no commands yet
+    pre_build:
+      commands:
+        - echo no commands here
+    build:
+      commands:
+        - echo Build started on `date`
+        - mvn install
+    post_build:
+      commands:
+        - echo no commands here
+artifacts:
+  files:
+    - 'target/codepipeline.jar'
+
