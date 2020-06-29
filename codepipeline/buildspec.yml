@@ -18,7 +18,7 @@ phases:
         - echo no commands here
 artifacts:
   files:
-    - target/codepipeline.jar
+    - codepipeline/target/codepipeline.jar
     - appspec.yml
     - scripts/before_install.sh
     - scripts/after_install.sh
